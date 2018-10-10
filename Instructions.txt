@@ -1,0 +1,15 @@
+Problem 1: go install vigenere-encrypt
+./vigenere-encrypt key plaintxt.txt > ciphertxt.txt
+
+Decrypt is the same.
+
+Problem 2: go install vigenere-keylength
+./vigenere-keylength ciphertxt.txt
+The key length will be printed on the terminal.
+
+Problem 3: go install vigenere-cryptanalyze
+./vigenere-vigenere-cryptanalyze ciphertxt.txt
+The key length and the most probable key will be printed on the terminal.
+Then, you can use the key to decrypt the ciphertxt.txt using vigenere-decrypt.
+
+Problem 4 is in the doc named "Problem4".
